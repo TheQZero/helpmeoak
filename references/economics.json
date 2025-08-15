@@ -1,0 +1,20 @@
+[
+  {
+    "header": "Header 1",
+    "entries": [
+      {
+        "title": "Title 1",
+        "file": "KISS Mod 5 Adv Mech_Booklet.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Header 2",
+    "entries": [
+      {
+        "title": "Title 2",
+        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+      }
+    ]
+  }
+]
