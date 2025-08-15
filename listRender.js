@@ -1,13 +1,15 @@
 const iconMap = {
-        pdf: "./icons/file.svg",
-        doc: "./icons/file-text.svg",
-        docx: "./icons/file-text.svg",
-        default: "./icons/file.svg"
+        pdf: "./../icons/file.svg",
+        doc: "./../icons/file-text.svg",
+        docx: "./../icons/file-text.svg",
+        default: "./../icons/file.svg",
     };
 
     const pathname = window.location.pathname;
 
-    fetch("./references/" + pathname.split("/").pop().replace(/\.[^/.]+$/, "") + ".json")
+    console.log("./references/" + pathname.split("/").pop().replace(/\.[^/.]+$/, "") + ".json");
+
+    fetch("/references/" + pathname.split("/").pop().replace(/\.[^/.]+$/, "") + ".json")
         .then((r) => r.json())
         .then((data) => {
             const list = document.getElementById("list");
@@ -25,7 +27,7 @@ const iconMap = {
                 group.entries.forEach((item) => {
                     const ext = item.file.split(".").pop().toLowerCase();
                     const icon = iconMap[ext] || iconMap.default;
-                    const reference = item.file.startsWith("http") ? item.file : "./pdfs/"+item.file
+                    const reference = item.file.startsWith("https://drive.google.com") ? item.file : "./../pdfs/"+item.file
                     
                     const li = document.createElement("li");
                     li.innerHTML = `
@@ -37,8 +39,8 @@ const iconMap = {
                             </div>
                         </div>
                         <div class="file-actions">
-                            <a class="download" href="${reference}" download>⬇ Download</a>
-                            <button onclick="viewPDF('${reference}', '${item.title}')">👁 View</button>
+                            <a class="download" href="${reference}" download><img src="./../icons/download.svg" alt="download" class="download-icon" /></a>
+                            <button onclick="viewPDF('${reference}', '${item.title}')"><img src="./../icons/view.svg" alt="view" class="download-icon" /></button>
                         </div>
                     `;
                     ul.appendChild(li);

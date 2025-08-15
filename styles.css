@@ -7,6 +7,32 @@ body {
     background: #fafafa;
 }
 
+.home-heading{
+  text-align: center;
+}
+
+.roboto-100{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-300{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.page-link{
+    color: black;
+}
+
+.block:hover{
+    background-color: white;
+}
+
 .go-home{
 
   background-color: #f8f9fa;
@@ -42,6 +68,11 @@ body {
 
 .subject-icon {
     height: 100px;
+}
+
+.download-icon {
+    height: 20px;
+    text-align: center;
 }
 
 header {
@@ -87,15 +118,17 @@ button,
     padding: 6px 10px;
     border: none;
     border-radius: 4px;
-    background: #1976d2;
     color: white;
     text-decoration: none;
     cursor: pointer;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover,
 .download:hover {
-    background: #145ca0;
+    background: lightgray;
 }
 
 .viewer {
@@ -111,7 +144,7 @@ button:hover,
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-    background: #1976d2;
+    background: #3c3c3c;
     color: white;
 }
 
@@ -157,6 +190,7 @@ ul {
     padding: 10px;
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
 }
 
 .block *{
