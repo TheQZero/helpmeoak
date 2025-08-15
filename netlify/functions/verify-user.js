@@ -18,7 +18,7 @@ export async function handler(event) {
     const decoded = await admin.auth().verifyIdToken(token);
     console.log("Decoded token:", decoded);
 
-    if (!decoded.email.endsWith('@oakhill.nsw.edu.au')) {
+    if (decoded.email.endsWith('@oakhill.nsw.edu.au')) { //CHANGE TO ADD ! IN PRODUCTION
       return { statusCode: 403, body: 'Access denied' };
     }
 
