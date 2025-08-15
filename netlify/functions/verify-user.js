@@ -8,21 +8,24 @@ if (!admin.apps.length) {
 }
 
 export async function handler(event) {
-  const authHeader = event.headers.authorization || '';
-  const token = authHeader.startsWith('Bearer ') ? authHeader.split(' ')[1] : null;
-
-  if (!token) {
-    return { statusCode: 401, body: 'Missing token' };
-  }
-
   try {
+    const authHeader = event.headers.authorization || '';
+    const token = authHeader.startsWith('Bearer ') ? authHeader.split(' ')[1] : null;
+    console.log("Received token:", token ? token.slice(0,10)+"..." : "none");
+
+    if (!token) return { statusCode: 401, body: 'Missing token' };
+
     const decoded = await admin.auth().verifyIdToken(token);
+    console.log("Decoded token:", decoded);
+
     if (!decoded.email.endsWith('@oakhill.nsw.edu.au')) {
       return { statusCode: 403, body: 'Access denied' };
     }
 
     return { statusCode: 200, body: JSON.stringify({ message: 'Access granted' }) };
   } catch (err) {
+    console.error("Token verification failed:", err);
     return { statusCode: 401, body: 'Invalid token' };
   }
 }
+
