@@ -1,0 +1,65 @@
+[
+  {
+    "header": "KISS Booklets",
+    "entries": [
+      {
+        "title": "KISS Module 5",
+        "file": "KISS Mod 5 Adv Mech_Booklet.pdf"
+      },
+      {
+        "title": "KISS Module 6",
+        "file": "KISS Mod 6 Electromagnetism_Booklet.pdf"
+      },
+      {
+        "title": "KISS Module 7",
+        "file": "KISS Mod 7 Nature of Light_Booklet.pdf"
+      },
+      {
+        "title": "KISS Module 8",
+        "file": "KISS Mod 8 Universe to Atom_Booklet.pdf"
+      }
+    ]
+  },
+  {
+    "header": "KISS Worksheets",
+    "entries": [
+      {
+        "title": "KISS Module 5 Worksheet",
+        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 6 Worksheet",
+        "file": "KISS Mod 6 Electromagnetism_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 7 Worksheet",
+        "file": "KISS Mod 7 Nature of Light_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 8 Worksheet",
+        "file": "KISS Mod 8 Universe to Atom_Worksheets.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Strive Worksheets",
+    "entries": [
+      {
+        "title": "Strive 5.1",
+        "file": "https://drive.google.com/file/d/1iSpRZGgxSgjA5MTYOFQEd1gIfG0zu7L4/preview"
+      },
+      {
+        "title": "KISS Module 6 Worksheet",
+        "file": "KISS Mod 6 Electromagnetism_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 7 Worksheet",
+        "file": "KISS Mod 7 Nature of Light_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 8 Worksheet",
+        "file": "KISS Mod 8 Universe to Atom_Worksheets.pdf"
+      }
+    ]
+  }
+]

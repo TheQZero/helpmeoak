@@ -1,0 +1,69 @@
+const iconMap = {
+        pdf: "./icons/file.svg",
+        doc: "./icons/file-text.svg",
+        docx: "./icons/file-text.svg",
+        default: "./icons/file.svg"
+    };
+
+    const pathname = window.location.pathname;
+
+    fetch("./references/" + pathname.split("/").pop().replace(/\.[^/.]+$/, "") + ".json")
+        .then((r) => r.json())
+        .then((data) => {
+            const list = document.getElementById("list");
+            list.innerHTML = "";
+
+            data.forEach((group) => {
+                // Create and insert the header
+                const headerEl = document.createElement("h2");
+                headerEl.textContent = group.header;
+                list.appendChild(headerEl);
+
+                // Create a container <ul> for the entries under this header
+                const ul = document.createElement("ul");
+                
+                group.entries.forEach((item) => {
+                    const ext = item.file.split(".").pop().toLowerCase();
+                    const icon = iconMap[ext] || iconMap.default;
+                    const reference = item.file.startsWith("http") ? item.file : "./pdfs/"+item.file
+                    
+                    const li = document.createElement("li");
+                    li.innerHTML = `
+                        <div class="file-meta">
+                            <img src="${icon}" alt="${ext} icon" class="file-icon" />
+                            <div>
+                                <strong>${item.title}</strong>
+                                <div class="desc">${item.desc == undefined ? "" : item.desc}</div>
+                            </div>
+                        </div>
+                        <div class="file-actions">
+                            <a class="download" href="${reference}" download>⬇ Download</a>
+                            <button onclick="viewPDF('${reference}', '${item.title}')">👁 View</button>
+                        </div>
+                    `;
+                    ul.appendChild(li);
+                });
+
+                list.appendChild(ul);
+            });
+        });
+
+    function viewPDF(url, title) {/*
+        document.getElementById("pdfFrame").src = url;
+        document.getElementById("viewer-title").textContent = title;
+        document.getElementById("viewer").style.display = "block";
+        document.getElementById("viewer").scrollIntoView({ behavior: "smooth" });
+*/
+        
+    //const viewerUrl = `https://docs.google.com/gview?embedded=true&url=${encodeURIComponent(window.location.origin + '/' + url)}`;
+    document.getElementById("pdfFrame").src = url;
+    document.getElementById("viewer-title").textContent = title;
+    document.getElementById("viewer").style.display = "block";
+    document.getElementById("viewer").scrollIntoView({ behavior: "smooth" });
+
+    }
+
+    function closeViewer() {
+        document.getElementById("pdfFrame").src = "";
+        document.getElementById("viewer").style.display = "none";
+    }

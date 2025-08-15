@@ -1,0 +1,111 @@
+[
+  {
+    "header": "KISS Booklets",
+    "entries": [
+      {
+        "title": "KISS Module 5",
+        "desc": "Booklet on equlibrium",
+        "file": "Chem_Module_5_PhotoMaster.pdf"
+      },
+      {
+        "title": "KISS Module 6 (MISSING)",
+        "desc": "Booklet on acid/base",
+        "file": "Chem_Module_6_PhotoMaster.pdf"
+      },
+      {
+        "title": "KISS Module 7",
+        "desc": "Booklet on organic chemistry",
+        "file": "Chem_Module_7_PhotoMaster.pdf"
+      },
+      {
+        "title": "KISS Module 8",
+        "desc": "Booklet on chemical application",
+        "file": "Chem_Module_8_PhotoMaster.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Strive Booklets",
+    "entries": [
+      {
+        "title": "Strive Mod 6 Chemistry",
+        "desc": "Practice question about acids and bases for Chemistry.",
+        "file": "strive-mod-6-chemistry.pdf"
+      }
+    ]
+  },
+  {
+    "header": "SmarterEd",
+    "entries": [
+      {
+        "title": "Smarter Ed: Mod 5 IQ1",
+        "file": "M5IQ1.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 5 IQ2",
+        "file": "M5IQ2.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 5 IQ3",
+        "file": "M5IQ3.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 5 IQ4",
+        "file": "M5IQ4.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 6 IQ1",
+        "file": "M6IQ5.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 6 IQ2",
+        "file": "M6IQ1.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 6 IQ3",
+        "file": "M6IQ2.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 6 IQ4",
+        "file": "M6IQ3.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 7 IQ1-2",
+        "file": "M7IQ1-2.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 7 IQ3",
+        "file": "M7IQ3.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 7 IQ4",
+        "file": "M7IQ4.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Textbooks",
+    "entries": [
+      {
+        "title": "Chemistry in Focus Y12",
+        "file": "https://drive.google.com/file/d/1-nBQNaDe0fXO5smZk9CVgxfBQFMm30mV/preview"
+      },
+      {
+        "title": "Pearson Year 12 Chemistry",
+        "file": "https://drive.google.com/file/d/1mj4-pC-kIeu79IjghdXOHcLgGxyqAKIj/preview"
+      },
+      {
+        "title": "Surfing Chemistry Module 5 & 6",
+        "file": "https://drive.google.com/file/d/1lFMzqsL9ej9Ah6BzWeH6Z9H-roE2aCbW/preview"
+      },
+      {
+        "title": "Surfing Chemistry Modules 7 & 8 (DOWNLOAD ONLY)",
+        "file": "https://drive.google.com/file/d/1Zc5qfsSmQkuFY5dEUvBdx6W8yGxzDvev/preview"
+      },
+      {
+        "title": "Y12 Atarnotes Chemistry PDF",
+        "file": "Y12 Atarnotes Chemistry PDF.pdf"
+      }
+    ]
+  }
+]

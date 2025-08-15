@@ -1,0 +1,17 @@
+[
+  {
+    "header": "Strive Booklets",
+    "entries": [
+      {
+        "title": "Strive Mod 6 Chemistry",
+        "desc": "Practive question about acids and bases for Chemistry.",
+        "file": "pdfs/strive-mod-6-chemistry.pdf"
+      },
+      {
+        "title": "Smarter Ed: Mod 5 IQ1",
+        "desc": "Past HSC on Module 5 IQ1",
+        "file": "pdfs/M5IQ1.pdf"
+      }
+    ]
+  }
+]
