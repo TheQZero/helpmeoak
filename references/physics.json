@@ -46,19 +46,77 @@
     "entries": [
       {
         "title": "Strive 5.1",
-        "file": "https://drive.google.com/file/d/1iSpRZGgxSgjA5MTYOFQEd1gIfG0zu7L4/preview"
+        "file": "Strive 5.1.pdf"
       },
       {
-        "title": "KISS Module 6 Worksheet",
-        "file": "KISS Mod 6 Electromagnetism_Worksheets.pdf"
+        "title": "Strive 5.2",
+        "file": "Strive 5.2.pdf"
       },
       {
-        "title": "KISS Module 7 Worksheet",
-        "file": "KISS Mod 7 Nature of Light_Worksheets.pdf"
+        "title": "Strive 5.3",
+        "file": "Strive 5.4.pdf"
       },
       {
-        "title": "KISS Module 8 Worksheet",
-        "file": "KISS Mod 8 Universe to Atom_Worksheets.pdf"
+        "title": "Strive 6.1",
+        "file": "Strive 6.1.pdf"
+      },
+      {
+        "title": "Strive 6.2",
+        "file": "Strive 6.2.pdf"
+      },
+      {
+        "title": "Strive 6.3",
+        "file": "Strive 6.3.pdf"
+      },
+      {
+        "title": "Strive 6.4",
+        "file": "Strive 6.4.pdf"
+      },
+      {
+        "title": "Strive 7.1",
+        "file": "Strive 7.1.pdf"
+      },
+      {
+        "title": "Strive 7.2",
+        "file": "Strive 7.2.pdf"
+      },
+      {
+        "title": "Strive 7.3",
+        "file": "Strive 7.3.pdf"
+      },
+      {
+        "title": "Strive 7.4",
+        "file": "Strive 7.4.pdf"
+      },
+      {
+        "title": "Strive 8.1",
+        "file": "Strive 8.1.pdf"
+      },
+      {
+        "title": "Strive 8.2",
+        "file": "Strive 8.2.pdf"
+      },
+      {
+        "title": "Strive 8.3",
+        "file": "Strive 8.3.pdf"
+      },
+      {
+        "title": "Strive 8.4",
+        "file": "Strive 8.4.pdf"
+      },
+      {
+        "title": "Strive 8.4",
+        "file": "Strive 8.4.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Additional Questions",
+    "entries": [
+      {
+        "title": "Various HSC Style Questions (All modules + sols)",
+        "desc": "A file which contains questions from all modules. Each question has it's answer under it.",
+        "file": "physics-all-module-questions-65c1cb9f1c9c8.pdf"
       }
     ]
   }
