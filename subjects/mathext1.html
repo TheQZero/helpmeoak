@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>School Resources</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./../styles.css" />
+        <script defer src="./../listRender.js"></script>
+        
+    </head>
+    <body>
+        <header>
+
+            <h1>♾️ Math Extension 1</h1>
+            <a href="./../index.html" class="go-home">Return Home</a>
+            <p>Select a resource to view or download.</p>
+            <p>To search: Command + F / Ctrl + F</p>
+
+        </header>
+        <main>
+            
+            <ul id="list"></ul>
+
+            <section class="viewer" id="viewer" style="display: none">
+                <div class="viewer-header">
+                    <span id="viewer-title"></span>
+                    <button onclick="closeViewer()"><img src="./../icons/close.svg" alt="download" class="download-icon" /></button>
+                </div>
+                <iframe id="pdfFrame"></iframe>
+            </section>
+        </main>
+        
+
+  <script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.0.0/firebase-auth-compat.js"></script>
+<script src="/firebase-config.js"></script>
+<script src="/auth-check.js"></script>
+    </body>
+</html>
