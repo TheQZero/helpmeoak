@@ -67,8 +67,8 @@ reference = "./../pdfs/"+item.file;
     const ext = url.split(".").pop().toLowerCase();
     let viewerUrl = url;
 
-    if (ext === "docx" || ext === "doc") {
-        viewerUrl = `https://docs.google.com/gview?embedded=true&url=${encodeURIComponent(window.location.origin + '/' + url)}`;
+    if (ext === "docx" || ext === "doc"|| ext === ".pptx" || ext === ".xlsx") {
+        viewerUrl = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(window.location.origin + '/' + url)}`;
     }
     
     document.getElementById("pdfFrame").src = viewerUrl;
