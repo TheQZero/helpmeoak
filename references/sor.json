@@ -1,19 +1,27 @@
 [
   {
-    "header": "Header 1",
+    "header": "Textbook References",
     "entries": [
       {
-        "title": "Title 1",
-        "file": "KISS Mod 5 Adv Mech_Booklet.pdf"
+        "title": "Cambridge SoR 4th Ed",
+        "file": "Cambridge SoR 4th Ed.pdf"
+      },
+      {
+        "title": "Pearson Living Religion 4th Ed",
+        "file": "Pearson Living Religion 4th Ed.pdf"
+      },
+      {
+        "title": "Oxford Studies Of Religion (Relevant pages)",
+        "file": "OxfordStudiesOfReligion.pdf"
       }
     ]
   },
   {
-    "header": "Header 2",
+    "header": "Notes",
     "entries": [
       {
-        "title": "Title 2",
-        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+        "title": "Aboriginal Spirituality Notes",
+        "file": "Aboriginal Spirituality.docx"
       }
     ]
   }

@@ -27,8 +27,14 @@ const iconMap = {
                 group.entries.forEach((item) => {
                     const ext = item.file.split(".").pop().toLowerCase();
                     const icon = iconMap[ext] || iconMap.default;
-                    const reference = item.file.startsWith("https://drive.google.com") ? item.file : "./../pdfs/"+item.file
-                    
+                    var reference; item.file.startsWith("https://drive.google.com") ? item.file : "./../pdfs/"+item.file
+                    if (item.file.startsWith("https://drive.google.com")){
+reference = item.file;
+                    }else if (ext == "pdf"){
+reference = "./../pdfs/"+item.file;
+                    }else{
+                        reference = "./../docs/" + item.file;
+                    }
                     const li = document.createElement("li");
                     li.innerHTML = `
                         <div class="file-meta">
@@ -58,7 +64,14 @@ const iconMap = {
 */
         
     //const viewerUrl = `https://docs.google.com/gview?embedded=true&url=${encodeURIComponent(window.location.origin + '/' + url)}`;
-    document.getElementById("pdfFrame").src = url;
+    const ext = url.split(".").pop().toLowerCase();
+    let viewerUrl = url;
+
+    if (ext === "docx" || ext === "doc") {
+        viewerUrl = `https://docs.google.com/gview?embedded=true&url=${encodeURIComponent(window.location.origin + '/' + url)}`;
+    }
+    
+    document.getElementById("pdfFrame").src = viewerUrl;
     document.getElementById("viewer-title").textContent = title;
     document.getElementById("viewer").style.display = "block";
     document.getElementById("viewer").scrollIntoView({ behavior: "smooth" });
