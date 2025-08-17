@@ -1,5 +1,38 @@
 [
   {
+    "header": "Textbooks",
+    "entries": [
+      {
+        "title": "Chemistry in Focus Y12",
+        "file": "https://drive.google.com/file/d/1-nBQNaDe0fXO5smZk9CVgxfBQFMm30mV/preview"
+      },
+      {
+        "title": "Pearson Year 12 Chemistry",
+        "file": "https://drive.google.com/file/d/1mj4-pC-kIeu79IjghdXOHcLgGxyqAKIj/preview"
+      },
+      {
+        "title": "Pearson Year 12 Chemistry WORKED SOLUTIONS",
+        "file": "Pearson Chemistry Y12 Worked Solutions.pdf"
+      },
+      {
+        "title": "Surfing Chemistry Module 5 & 6",
+        "file": "https://drive.google.com/file/d/1lFMzqsL9ej9Ah6BzWeH6Z9H-roE2aCbW/preview"
+      },
+      {
+        "title": "Surfing Chemistry Modules 7 & 8 (DOWNLOAD ONLY)",
+        "file": "https://drive.google.com/file/d/1Zc5qfsSmQkuFY5dEUvBdx6W8yGxzDvev/preview"
+      },
+      {
+        "title": "Y12 Atarnotes Chemistry PDF",
+        "file": "Y12 Atarnotes Chemistry PDF.pdf"
+      },
+      {
+        "title": "Y12 Cambridge Checkpoint Chemistry",
+        "file": "Year 12 Cambridge Checkpoints Chemistry 2019-2020.pdf"
+      }
+    ]
+  },
+  {
     "header": "KISS Booklets",
     "entries": [
       {
@@ -28,9 +61,24 @@
     "header": "Strive Booklets",
     "entries": [
       {
+        "title": "Strive Mod 5 Chemistry",
+        "desc": "Practice question about equilibrium for Chemistry.",
+        "file": "strive-book-module-5-chemistry-questions_compress.pdf"
+      },
+      {
         "title": "Strive Mod 6 Chemistry",
         "desc": "Practice question about acids and bases for Chemistry.",
         "file": "strive-mod-6-chemistry.pdf"
+      },
+      {
+        "title": "Strive Mod 7 Chemistry",
+        "desc": "Practice question about Organic Chemistry.",
+        "file": "strive-book-module-7-chemistry-questions_compress.pdf"
+      },
+      {
+        "title": "Strive Mod 8 Chemistry",
+        "desc": "Practice question about synthesis in Chemistry.",
+        "file": "strive-book-module-8-chemistry-questions_compress.pdf"
       }
     ]
   },
@@ -84,27 +132,137 @@
     ]
   },
   {
-    "header": "Textbooks",
+    "header": "Chemistry In Focus Chapter Questions + Answers",
     "entries": [
       {
-        "title": "Chemistry in Focus Y12",
-        "file": "https://drive.google.com/file/d/1-nBQNaDe0fXO5smZk9CVgxfBQFMm30mV/preview"
+        "title": "Chapter 2",
+        "file": "Chemistry in Focus Ch 2.pdf"
       },
       {
-        "title": "Pearson Year 12 Chemistry",
-        "file": "https://drive.google.com/file/d/1mj4-pC-kIeu79IjghdXOHcLgGxyqAKIj/preview"
+        "title": "Chapter 2 Ans",
+        "file": "Chem in Focus Ans Ch 2.pdf"
+      },
+
+      {
+        "title": "Chapter 3",
+        "file": "Chemistry in Focus Ch 3.pdf"
       },
       {
-        "title": "Surfing Chemistry Module 5 & 6",
-        "file": "https://drive.google.com/file/d/1lFMzqsL9ej9Ah6BzWeH6Z9H-roE2aCbW/preview"
+        "title": "Chapter 3 Ans",
+        "file": "Chem in Focus Ans Ch 3.pdf"
       },
       {
-        "title": "Surfing Chemistry Modules 7 & 8 (DOWNLOAD ONLY)",
-        "file": "https://drive.google.com/file/d/1Zc5qfsSmQkuFY5dEUvBdx6W8yGxzDvev/preview"
+        "title": "Chapter 4",
+        "file": "Chemistry in Focus Ch 4.pdf"
       },
       {
-        "title": "Y12 Atarnotes Chemistry PDF",
-        "file": "Y12 Atarnotes Chemistry PDF.pdf"
+        "title": "Chapter 4 Ans",
+        "file": "Chem in Focus Ans Ch 4.pdf"
+      },
+      {
+        "title": "Chapter 5",
+        "file": "Chemistry in Focus Ch 5.pdf"
+      },
+      {
+        "title": "Chapter 5 Ans",
+        "file": "Chem in Focus Ans Ch 5.pdf"
+      },
+      {
+        "title": "Chapter 6",
+        "file": "Chemistry in Focus Ch 6.pdf"
+      },
+      {
+        "title": "Chapter 6 Ans",
+        "file": "Chem in Focus Ans Ch 6.pdf"
+      },
+      {
+        "title": "Chapter 7",
+        "file": "Chemistry in Focus Ch 7.pdf"
+      },
+      {
+        "title": "Chapter 7 Ans",
+        "file": "Chem in Focus Ans Ch 7.pdf"
+      },
+      {
+        "title": "Chapter 8",
+        "file": "Chemistry in Focus Ch 8.pdf"
+      },
+      {
+        "title": "Chapter 8 Ans",
+        "file": "Chem in Focus Ans Ch 8.pdf"
+      },
+      {
+        "title": "Chapter 9",
+        "file": "Chemistry in Focus Ch 9.pdf"
+      },
+      {
+        "title": "Chapter 9 Ans",
+        "file": "Chem in Focus Ans Ch 9.pdf"
+      },
+      {
+        "title": "Chapter 10",
+        "file": "Chemistry in Focus Ch 10.pdf"
+      },
+      {
+        "title": "Chapter 10 Ans",
+        "file": "Chem in Focus Ans Ch 10.pdf"
+      },
+      {
+        "title": "Chapter 11",
+        "file": "Chemistry in Focus Ch 11.pdf"
+      },
+      {
+        "title": "Chapter 11 Ans",
+        "file": "Chem in Focus Ans Ch 11.pdf"
+      },
+      {
+        "title": "Chapter 12",
+        "file": "Chemistry in Focus Ch 12.pdf"
+      },
+      {
+        "title": "Chapter 12 Ans",
+        "file": "Chem in Focus Ans Ch 12.pdf"
+      },
+      {
+        "title": "Chapter 13",
+        "file": "Chemistry in Focus Ch 13.pdf"
+      },
+      {
+        "title": "Chapter 13 Ans",
+        "file": "Chem in Focus Ans Ch 13.pdf"
+      },
+      {
+        "title": "Chapter 14",
+        "file": "Chemistry in Focus Ch 14.pdf"
+      },
+      {
+        "title": "Chapter 14 Ans",
+        "file": "Chem in Focus Ans Ch 14.pdf"
+      },
+      {
+        "title": "Chapter 15",
+        "file": "Chemistry in Focus Ch 15.pdf"
+      },
+      {
+        "title": "Chapter 15 Ans",
+        "file": "Chem in Focus Ans Ch 15.pdf"
+      },
+      {
+        "title": "Chapter 16",
+        "file": "Chemistry in Focus Ch 16.pdf"
+      },
+      {
+        "title": "Chapter 16 Ans",
+        "file": "Chem in Focus Ans Ch 16.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Miscellaneous",
+    "entries": [
+      {
+        "title": "Chemistry Formula Sheet",
+        "file": "chemistry-formulae-sheet-data-sheet-periodic-table-hsc-exams-2019.pdf"
       }
     ]
   }

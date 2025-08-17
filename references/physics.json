@@ -1,5 +1,22 @@
 [
   {
+    "header": "Textbooks",
+    "entries": [
+      {
+        "title": "Y12 Pearson Physics Textbook",
+        "file": "https://drive.google.com/file/d/1PlwbegVA1bG43cPvejX8tY9Pf7dL0zdb/preview"
+      },
+      {
+        "title": "Dot Point Y12 Physics Textbook",
+        "file": "Year 12 Dot Point Physics.pdf"
+      },
+      {
+        "title": "Surfing Physics (Mod 7-8)",
+        "file": "Surfing Physics (Mod 7-8).pdf"
+      }
+    ]
+  },
+  {
     "header": "KISS Booklets",
     "entries": [
       {
@@ -111,12 +128,151 @@
     ]
   },
   {
+    "header": "Physics HSC questions by topic + Answers (Note: Some .docx files)",
+    "entries": [
+      {
+        "title": "5.1 Questions",
+        "file": "5.1 Questions.pdf"
+      },
+      {
+        "title": "5.1 Answers",
+        "file": "5.1 Ans.pdf"
+      },
+      {
+        "title": "5.2 Questions",
+        "file": "5.2 Questions.pdf"
+      },
+      {
+        "title": "5.2 Answers",
+        "file": "5.2 Ans.pdf"
+      },
+      {
+        "title": "5.3 Questions",
+        "file": "5.3 Questions.pdf"
+      },
+      {
+        "title": "5.3 Answers",
+        "file": "5.3 Ans.pdf"
+      },
+
+      {
+        "title": "6.1 Questions",
+        "file": "6.1 Questions.pdf"
+      },
+      {
+        "title": "6.1 Answers",
+        "file": "6.1 Answers.pdf"
+      },
+      {
+        "title": "6.2 Questions",
+        "file": "6.2 Questions.pdf"
+      },
+      {
+        "title": "6.2 Answers",
+        "file": "6.2 Answers.pdf"
+      },
+      {
+        "title": "6.3 Questions",
+        "file": "6.3 Questions.pdf"
+      },
+      {
+        "title": "6.3 Answers",
+        "file": "6.3 Answers.pdf"
+      },
+      {
+        "title": "6.4 Questions",
+        "file": "6.4 Questions.pdf"
+      },
+      {
+        "title": "6.4 Answers",
+        "file": "6.4 Answers.pdf"
+      },
+      {
+        "title": "7.1 Questions",
+        "file": "7.1 Questions.docx"
+      },
+      {
+        "title": "7.1 Answers",
+        "file": "7.1 Answers.docx"
+      },
+      {
+        "title": "7.2 Questions",
+        "file": "7.2 Questions.docx"
+      },
+      {
+        "title": "7.2 Answers",
+        "file": "7.2 Answers.docx"
+      },
+      {
+        "title": "7.3 Questions",
+        "file": "7.3 Questions.docx"
+      },
+      {
+        "title": "7.3 Answers",
+        "file": "7.3 Answers.docx"
+      },
+      {
+        "title": "7.4 Questions",
+        "file": "7.4 Questions.docx"
+      },
+      {
+        "title": "7.4 Answers",
+        "file": "7.4 Answers.docx"
+      },
+      {
+        "title": "8.1 Questions",
+        "file": "8.1 Questions.docx"
+      },
+      {
+        "title": "8.1 Answers",
+        "file": "8.1 Answers.docx"
+      },
+      {
+        "title": "8.2 Questions",
+        "file": "8.2 Questions.docx"
+      },
+      {
+        "title": "8.2 Answers",
+        "file": "8.2 Answers.docx"
+      },
+      {
+        "title": "8.3 Questions",
+        "file": "8.3 Questions.docx"
+      },
+      {
+        "title": "8.3 Answers",
+        "file": "8.3 Answers.docx"
+      },
+      {
+        "title": "8.4 Questions",
+        "file": "8.4 Questions.docx"
+      },
+      {
+        "title": "8.4 Answers",
+        "file": "8.4 Answers.docx"
+      },
+      {
+        "title": "8.5 Questions",
+        "file": "8.5 Questions.docx"
+      },
+      {
+        "title": "8.5 Answers",
+        "file": "8.5 Answers.docx"
+      }
+    ]
+  },
+  {
     "header": "Additional Questions",
     "entries": [
       {
         "title": "Various HSC Style Questions (All modules + sols)",
         "desc": "A file which contains questions from all modules. Each question has it's answer under it.",
         "file": "physics-all-module-questions-65c1cb9f1c9c8.pdf"
+      },
+      {
+        "title": "Excel Sample Paper with Answers",
+        "desc": "Questions from all modules",
+        "file": "2019-PHY-Physics-Study-Guide-EXCEL-OTHER.pdf"
       }
     ]
   }
