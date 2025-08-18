@@ -1,19 +1,158 @@
 [
   {
-    "header": "Header 1",
+    "header": "Textbooks",
     "entries": [
       {
-        "title": "Title 1",
-        "file": "KISS Mod 5 Adv Mech_Booklet.pdf"
+        "title": "New Senior Mathematics Advanced Year 11 & 12.pdf",
+        "desc": "Worked solutions for every chapter of the textbook have been provided below.",
+        "file": "https://drive.google.com/file/d/1u_6i-D4vY9uA-i0WYcZb-KF08nrU-5nj/preview"
       }
     ]
   },
   {
-    "header": "Header 2",
+    "header": "Worked Solutions for New Senior Mathematics Advanced Year 11 & 12 Textbook",
+    "entries": []
+  },
+  {
+    "header": "SmarterED Worksheets",
+    "entries": []
+  },
+  {
+    "header": "Notes",
     "entries": [
       {
-        "title": "Title 2",
-        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+        "title": "EXT1 Math 'Cheat Sheet'",
+        "desc": "Summaries points and formulas for the Ext1 course. Created by Jason Herbas.",
+        "file": "EXT1 Math 'Cheat Sheet'.pdf"
+      }
+    ]
+  },
+  {
+    "header": "CSSA Papers",
+    "entries": []
+  },
+  {
+    "header": "Bored of Studies Ext 1 Papers",
+    "headerDesc": "WARNING: These papers are far beyond the level of the trials or HSC. They are useful in gaining new techniques and perspectives, but NOT as a benchmark of ability.",
+    "entries": [
+      {
+        "title": "2023 BoS Trials Mathematics Extension 1",
+        "file": "2023 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2023 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2023 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2022 BoS Trials Mathematics Extension 1",
+        "file": "2022 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2022 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2022 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2021 BoS Trials Mathematics Extension 1",
+        "file": "2021 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2021 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2021 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2020 BoS Trials Mathematics Extension 1",
+        "file": "2020 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2020 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2020 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2019 BoS Trials Mathematics Extension 1",
+        "file": "2019 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2019 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2019 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2018 BoS Trials Mathematics Extension 1",
+        "file": "2018 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2018 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2018 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2017 BoS Trials Mathematics Extension 1",
+        "file": "2017 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2017 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2017 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2016 BoS Trials Mathematics Extension 1",
+        "file": "2016 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2016 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2016 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2015 BoS Trials Mathematics Extension 1",
+        "file": "2015 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2015 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2015 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2014 BoS Trials Mathematics Extension 1",
+        "file": "2014 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2014 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2014 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2013 BoS Trials Mathematics Extension 1",
+        "file": "2013 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2013 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2013 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      },
+      {
+        "title": "2012 BoS Trials Mathematics Extension 1",
+        "file": "2012 BoS Trials Mathematics Extension 1.pdf"
+      },
+      {
+        "title": "2012 BoS Trials Mathematics Extension 1 Solutions",
+        "file": "2012 BoS Trials Mathematics Extension 1 Solutions.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Additional Papers",
+    "entries": []
+  },
+  {
+    "header": "Assigments",
+    "entries": []
+  },
+  {
+    "header": "Additional Questions",
+    "entries": [
+      {
+        "title": "2023 - 2007 Maths Ext 1 HSC Qs by Topic",
+        "desc": "Organised past HSC questions by topic. Hyperlinks to answers.",
+        "file": "2023 - 2007 Maths Ext 1 HSC Qs by Topic.pdf"
+      },
+      {
+        "title": "Extension 1 Hard Questions",
+        "desc": "A collection of hard question across different topics. Created by Jason Herbas.",
+        "file": "Extension 1 Hard Questions.pdf"
       }
     ]
   }

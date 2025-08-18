@@ -21,6 +21,10 @@ const iconMap = {
                 headerEl.textContent = group.header;
                 list.appendChild(headerEl);
 
+                const headerDescEl = document.createElement("p");
+                headerDescEl.textContent = group.headerDesc;
+                list.appendChild(headerDescEl);
+
                 // Create a container <ul> for the entries under this header
                 const ul = document.createElement("ul");
                 
