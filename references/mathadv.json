@@ -1,19 +1,68 @@
 [
   {
-    "header": "Header 1",
+    "header": "Textbooks",
     "entries": [
       {
-        "title": "Title 1",
-        "file": "KISS Mod 5 Adv Mech_Booklet.pdf"
+        "title": "Cambridge Y12 Textbook",
+        "file": "Cambridge 12 Advanced.pdf"
+      },
+      {
+        "title": "Cambridge Y12 Textbook ANSWERS",
+        "file": "Cambridge 12 Advanced Answers.pdf"
+      },
+      {
+        "title": "Cambridge Y11 Textbook",
+        "file": "Cambridge 11 Advanced.pdf"
+      },
+      {
+        "title": "Cambridge Y11 Textbook ANSWERS",
+        "file": "Cambridge 11 Advanced Answers.pdf"
       }
     ]
   },
   {
-    "header": "Header 2",
+    "header": "Notes",
     "entries": [
       {
-        "title": "Title 2",
-        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+        "title": "Math Adv Cheat Sheet",
+        "desc": "Summary points from all Math Adv topics. Created by Jason Herbas",
+        "file": "ADV Math 'Cheat Sheet' (1).pdf"
+      }
+    ]
+  },
+  {
+    "header": "Assigments",
+    "entries": [
+      {
+        "title": "12ADV_Term 2 - Assignment 1",
+        "file": "12ADV_Term 2 - Assignment 1.pdf"
+      },
+      {
+        "title": "12ADV_Term 2 - Assignment 1_SOLS",
+        "file": "12ADV_Term 2 - Assignment 1_SOLS.pdf"
+      },
+      {
+        "title": "12ADV_Term 2 - Assignment 2",
+        "file": "12ADV_Term 2 - Assignment 2.pdf"
+      },
+      {
+        "title": "12ADV_Term 2 - Assignment 2_SOLS",
+        "file": "12ADV_Term 2 - Assignment 2_SOLS.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Additional Questions",
+    "entries": [
+        {
+        "title": "2023 - 2007 Mathematics Advanced HSC",
+        "desc": "Past HSC questions organised by topic. Includes links to answers.",
+        "file": "2023 2007 Mathematics Advanced HSC.pdf"
+      },
+      {
+        "title": "Advanced Hard Questions + sols",
+        "desc": "A collection of hard questions across topics. Created by Jason Herbas.",
+        "file": "Advanced Hard Questions.pdf"
       }
     ]
   }
