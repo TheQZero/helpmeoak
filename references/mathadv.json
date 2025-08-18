@@ -31,6 +31,80 @@
     ]
   },
   {
+    "header": "CSSA Papers",
+    "entries": [
+      {
+        "title": "CSSA 2020 Advanced Exam",
+        "file": "CSSA_2020_Advanced_Exam.pdf"
+      },
+      {
+        "title": "CSSA 2020 Advanced Solutions",
+        "file": "CSSA_2020_Advanced_Sols.pdf"
+      },
+      {
+        "title": "CSSA 2021 Advanced Exam",
+        "file": "CSSA_2021_Advanced_Exam.pdf"
+      },
+      {
+        "title": "CSSA 2021 Advanced Solutions",
+        "file": "CSSA_2021_Advanced_Sols.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Additional Papers",
+    "entries": [
+      {
+        "title": "2024 Advanced Mock Trial Exam",
+        "desc": "From Oakhill",
+        "file": "2024 Advanced Mock Trial Exam.pdf"
+      },
+      {
+        "title": "2024 Advanced MOCK Trial Paper (solutions)",
+        "desc": "From Oakhill",
+        "file": "2024 Advanced MOCK Trial Paper (solutions).pdf"
+      },
+      {
+        "title": "HSC Mathematics Advanced Year 12 Question and Answer Booklet 2023_V2",
+        "file": "HSC Mathematics Advanced Year 12 Question and Answer Booklet 2023_V2.pdf"
+      },
+      {
+        "title": "HSC Mathematics Advanced Year 12 Suggested Solutions Booklet 2023_V2",
+        "file": "HSC Mathematics Advanced Year 12 Suggested Solutions Booklet 2023_V2.pdf"
+      },
+      {
+        "title": "Internal Mock Test 1",
+        "desc": "From Oakhill",
+        "file": "Task 2_Mock Test.pdf"
+      },
+      {
+        "title": "Internal Mock Test 1 Solutions",
+        "desc": "From Oakhill",
+        "file": "12ADV_Half Yearly_Mock Exam_SOLUTIONS.pdf"
+      },
+      {
+        "title": "Internal Mock Test 2",
+        "desc": "From Oakhill",
+        "file": "Task 1 - Advanced Mock Exam_V2.pdf"
+      },
+      {
+        "title": "Internal Mock Test 2 Solutions",
+        "desc": "From Oakhill",
+        "file": "Task 1 - Advanced Mock Exam_V2_Sols.pdf"
+      },
+      {
+        "title": "Internal Mock Test 3",
+        "desc": "From Oakhill",
+        "file": "Task 1 - Advanced Mock Test2.pdf"
+      },
+      {
+        "title": "Internal Mock Test 3 Solutions",
+        "desc": "From Oakhill",
+        "file": "Task 1 - Advanced Mock Test2_Sols.pdf"
+      }
+    ]
+  },
+  {
     "header": "Assigments",
     "entries": [
       {
@@ -38,7 +112,7 @@
         "file": "12ADV_Term 2 - Assignment 1.pdf"
       },
       {
-        "title": "12ADV_Term 2 - Assignment 1_SOLS",
+        "title": "12ADV_Term 2 - Assignment 1 SOLS",
         "file": "12ADV_Term 2 - Assignment 1_SOLS.pdf"
       },
       {
@@ -46,8 +120,16 @@
         "file": "12ADV_Term 2 - Assignment 2.pdf"
       },
       {
-        "title": "12ADV_Term 2 - Assignment 2_SOLS",
+        "title": "12ADV_Term 2 - Assignment 2 SOLS",
         "file": "12ADV_Term 2 - Assignment 2_SOLS.pdf"
+      },
+      {
+        "title": "12ADV_Term 2 - Assignment 3",
+        "file": "12ADV_Term 2 - Assignment 3.pdf"
+      },
+      {
+        "title": "12ADV_Term 2 - Assignment 3 SOLS",
+        "file": "12ADV_Term 2 - Assignment 3_SOLS.pdf"
       }
     ]
   },
