@@ -3,19 +3,22 @@
     "header": "Textbooks",
     "entries": [
       {
-        "title": "New Senior Mathematics Advanced Year 11 & 12.pdf",
-        "desc": "Worked solutions for every chapter of the textbook have been provided below.",
-        "file": "https://drive.google.com/file/d/1u_6i-D4vY9uA-i0WYcZb-KF08nrU-5nj/preview"
+        "title": "Cambridge Y12 Ext1 Textbook",
+        "file": "Cambridge 12 Ext 1.pdf"
+      },
+      {
+        "title": "Cambridge Y12 Ext1 Textbook Solutions",
+        "file": "Cambridge 12 Ext 1 Answers.pdf"
+      },
+      {
+        "title": "Cambridge Y11 Ext1 Textbook",
+        "file": "Cambridge 11 Ext 1.pdf"
+      },
+      {
+        "title": "Cambridge Y11 Ext1 Textbook Solutions",
+        "file": "Cambridge 11 Ext 1 Answers.pdf"
       }
     ]
-  },
-  {
-    "header": "Worked Solutions for New Senior Mathematics Advanced Year 11 & 12 Textbook",
-    "entries": []
-  },
-  {
-    "header": "SmarterED Worksheets",
-    "entries": []
   },
   {
     "header": "Notes",
@@ -29,7 +32,12 @@
   },
   {
     "header": "CSSA Papers",
-    "entries": []
+    "entries": [
+      {
+        "title": "EXT1 Math 'Cheat Sheet'",
+        "file": "EXT1 Math 'Cheat Sheet'.pdf"
+      }
+    ]
   },
   {
     "header": "Bored of Studies Ext 1 Papers",
@@ -132,14 +140,6 @@
         "file": "2012 BoS Trials Mathematics Extension 1 Solutions.pdf"
       }
     ]
-  },
-  {
-    "header": "Additional Papers",
-    "entries": []
-  },
-  {
-    "header": "Assigments",
-    "entries": []
   },
   {
     "header": "Additional Questions",
