@@ -1,6 +1,6 @@
 // netlify/functions/verify-user.js
 import admin from 'firebase-admin';
-import emails from '/references/emails';
+import { env } from "netlify:env";
 
 if (!admin.apps.length) {
   admin.initializeApp({
@@ -19,7 +19,7 @@ export default async (request, context) => {
     }
 
     // load whitelist from env
-    const whitelist = (Netlify.env.get("ALLOWED_EMAILS") || "")
+    const whitelist = (env.ALLOWED_EMAILS || "")
       .split(",")
       .map((e) => e.trim().toLowerCase());
 
