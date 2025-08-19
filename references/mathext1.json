@@ -132,6 +132,11 @@
         "title": "Extension 1 Hard Questions",
         "desc": "A collection of hard question across different topics. Created by Jason Herbas.",
         "file": "Extension 1 Hard Questions.pdf"
+      },
+      {
+        "title": "MathQuest Y12 Ext1",
+        "desc": "A vast collection of math questions put into a notion database with filters. Very good resource.",
+        "file": "https://mathquest.notion.site/"
       }
     ]
   }
