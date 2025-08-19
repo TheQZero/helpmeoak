@@ -21,9 +21,9 @@ export async function handler(event) {
 
     //if (decoded.email.endsWith('@oakhill.nsw.edu.au')) { CHANGE TO ADD ! IN PRODUCTION
 
-    if (JSON.parse(process.env.WHITELISTED_USERS).includes(decoded.email)) {
-      return { statusCode: 403, body: 'Access denied' };
-    }
+    //if (JSON.parse(process.env.WHITELISTED_USERS).includes(decoded.email)) {
+    //  return { statusCode: 403, body: 'Access denied' };
+    //}
 
     return { statusCode: 200, body: JSON.stringify({ message: 'Access granted', whitelist: JSON.parse(process.env.WHITELISTED_USERS)}) };
   } catch (err) {
