@@ -1,5 +1,6 @@
 // netlify/functions/verify-user.js
 import admin from 'firebase-admin';
+import whitelist from "./whitelist.json" assert { type: "json" };
 
 
 if (!admin.apps.length) {
@@ -18,8 +19,8 @@ export async function handler(event) {
 
     const decoded = await admin.auth().verifyIdToken(token);
     console.log("Decoded token:", decoded);
-    
-    if (decoded.email == 'wafflestraws@icloud.com') {
+    const allowed = whitelist.emails.map(e => e.toLowerCase());
+    if (!allowed.includes(decoded.email.toLowerCase())) {
         return { statusCode: 403, body: 'Access denied' };
     }
 
