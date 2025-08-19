@@ -1,6 +1,6 @@
 // netlify/functions/verify-user.js
 import admin from 'firebase-admin';
-import whitelist from "./whitelist.json" assert { type: "json" };
+
 
 if (!admin.apps.length) {
   admin.initializeApp({
@@ -8,24 +8,24 @@ if (!admin.apps.length) {
   });
 }
 
-export default async (request, context) => {
+export async function handler(event) {
   try {
-    const email =
-      context.jwt?.claims?.email || context.identity?.token?.email;
+    const authHeader = event.headers.authorization || '';
+    const token = authHeader.startsWith('Bearer ') ? authHeader.split(' ')[1] : null;
+    console.log("Received token:", token ? token.slice(0,10)+"..." : "none");
 
-    if (!email) {
-      return new Response("Unauthorized: No email found", { status: 401 });
+    if (!token) return { statusCode: 401, body: 'Missing token' };
+
+    const decoded = await admin.auth().verifyIdToken(token);
+    console.log("Decoded token:", decoded);
+    
+    if (decoded.email.endsWith('@oakhill.nsw.edu.au')) {
+        return { statusCode: 403, body: 'Access denied' };
     }
 
-    const allowed = whitelist.emails.map(e => e.toLowerCase());
-    if (!allowed.includes(email.toLowerCase())) {
-      return new Response("Forbidden: Email not allowed", { status: 403 });
-    }
-
-    return context.next();
+    return { statusCode: 200, body: JSON.stringify({ message: 'Access granted' }) };
   } catch (err) {
-    return new Response("Error in edge function: " + err.message, { status: 500 });
+    console.error("Token verification failed:", err);
+    return { statusCode: 401, body: 'Invalid token' };
   }
-};
-
-
+}
