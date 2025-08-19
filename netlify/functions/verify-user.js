@@ -1,6 +1,6 @@
 // netlify/functions/verify-user.js
 import admin from 'firebase-admin';
-import { env } from "netlify:env";
+import whitelist from "./whitelist.json" assert { type: "json" };
 
 if (!admin.apps.length) {
   admin.initializeApp({
@@ -10,24 +10,18 @@ if (!admin.apps.length) {
 
 export default async (request, context) => {
   try {
-    // decode JWT from Auth provider
-    const claims = context.identity?.token?.user || {};
-    const email = claims.email;
+    const email =
+      context.jwt?.claims?.email || context.identity?.token?.email;
 
     if (!email) {
       return new Response("Unauthorized: No email found", { status: 401 });
     }
 
-    // load whitelist from env
-    const whitelist = (env.ALLOWED_EMAILS || "")
-      .split(",")
-      .map((e) => e.trim().toLowerCase());
+    const allowed = whitelist.emails.map(e => e.toLowerCase());
+    if (!allowed.includes(email.toLowerCase())) {
+      return new Response("Forbidden: Email not allowed", { status: 403 });
+    }
 
-    //if (!whitelist.includes(email.toLowerCase())) {
-      //return new Response("Forbidden: Email not allowed", { status: 403 });
-    //}
-
-    // ✅ Passed whitelist check
     return context.next();
   } catch (err) {
     return new Response("Error in edge function: " + err.message, { status: 500 });
