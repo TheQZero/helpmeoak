@@ -17,11 +17,9 @@
       if (res.status !== 200 && window.location.hostname !== 'localhost') {
         console.log(res.status);
         localStorage.removeItem('token');
-        alert("Error");
-        alert(res.status);
-        alert(res.body.whitelist);
+  
         window.location.href = '/login.html';
-        alert("Error");
+
       }
     }
 
