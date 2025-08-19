@@ -1,5 +1,6 @@
 // netlify/functions/verify-user.js
 import admin from 'firebase-admin';
+import emails from '/references/emails';
 
 if (!admin.apps.length) {
   admin.initializeApp({
@@ -18,7 +19,9 @@ export async function handler(event) {
     const decoded = await admin.auth().verifyIdToken(token);
     console.log("Decoded token:", decoded);
 
-    if (decoded.email.endsWith('@oakhill.nsw.edu.au')) { //CHANGE TO ADD ! IN PRODUCTION
+    //if (decoded.email.endsWith('@oakhill.nsw.edu.au')) { CHANGE TO ADD ! IN PRODUCTION
+
+    if (!emails.includes(decoded.email)) {
       return { statusCode: 403, body: 'Access denied' };
     }
 
