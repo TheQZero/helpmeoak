@@ -8,27 +8,30 @@ if (!admin.apps.length) {
   });
 }
 
-export async function handler(event) {
+export default async (request, context) => {
   try {
-    const authHeader = event.headers.authorization || '';
-    const token = authHeader.startsWith('Bearer ') ? authHeader.split(' ')[1] : null;
-    console.log("Received token:", token ? token.slice(0,10)+"..." : "none");
+    // decode JWT from Auth provider
+    const claims = context.identity?.token?.user || {};
+    const email = claims.email;
 
-    if (!token) return { statusCode: 401, body: 'Missing token' };
+    if (!email) {
+      return new Response("Unauthorized: No email found", { status: 401 });
+    }
 
-    const decoded = await admin.auth().verifyIdToken(token);
-    console.log("Decoded token:", decoded);
+    // load whitelist from env
+    const whitelist = (Netlify.env.get("ALLOWED_EMAILS") || "")
+      .split(",")
+      .map((e) => e.trim().toLowerCase());
 
-    //if (decoded.email.endsWith('@oakhill.nsw.edu.au')) { CHANGE TO ADD ! IN PRODUCTION
-
-    //if (JSON.parse(process.env.WHITELISTED_USERS).includes(decoded.email)) {
-    //  return { statusCode: 403, body: 'Access denied' };
+    //if (!whitelist.includes(email.toLowerCase())) {
+      //return new Response("Forbidden: Email not allowed", { status: 403 });
     //}
 
-    return { statusCode: 200, body: JSON.stringify({ message: 'Access granted', whitelist: JSON.parse(process.env.WHITELISTED_USERS)}) };
+    // ✅ Passed whitelist check
+    return context.next();
   } catch (err) {
-    console.error("Token verification failed:", err);
-    return { statusCode: 401, body: 'Invalid token' };
+    return new Response("Error in edge function: " + err.message, { status: 500 });
   }
-}
+};
+
 
