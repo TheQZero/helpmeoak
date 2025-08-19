@@ -21,7 +21,7 @@ export async function handler(event) {
 
     //if (decoded.email.endsWith('@oakhill.nsw.edu.au')) { CHANGE TO ADD ! IN PRODUCTION
 
-    if (!emails.includes(decoded.email)) {
+    if (!JSON.parse(process.env.WHITELISTED_USERS).includes(decoded.email)) {
       return { statusCode: 403, body: 'Access denied' };
     }
 
