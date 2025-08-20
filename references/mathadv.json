@@ -353,6 +353,11 @@
         "title": "3D Trig Revision",
         "desc": "A worksheet from NelsonNet with some 3D trig questions.",
         "file": "3D Trig revision.pdf"
+      },
+      {
+        "title": "HSC Math By Topic",
+        "desc" : "A website that can generate math questions by topic.",
+        "file" : "https://hscmathsbytopic.firsteducation.com.au/paper/2U"
       }
     ]
   }

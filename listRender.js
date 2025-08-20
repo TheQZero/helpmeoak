@@ -32,7 +32,7 @@ const iconMap = {
                     const ext = item.file.split(".").pop().toLowerCase();
                     const icon = iconMap[ext] || iconMap.default;
                     var reference; item.file.startsWith("https://drive.google.com") ? item.file : "./../pdfs/"+item.file
-                    if (item.file.startsWith("https://drive.google.com") || item.file.startsWith("https://docs.google.com")){
+                    if (item.file.startsWith("https://")){
 reference = item.file;
                     }else if (ext == "pdf"){
 reference = "./../pdfs/"+item.file;
