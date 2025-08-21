@@ -1,20 +1,11 @@
 [
   {
-    "header": "Anki Decks",
+    "header": "Notes",
     "entries": [
       {
-        "title": "Literary Devices",
-        "desc":"Created by Kristijan Magdic",
-        "file": "Year 12__Literary devices.apkg"
-      }
-    ]
-  },
-  {
-    "header": "Header 2",
-    "entries": [
-      {
-        "title": "Title 2",
-        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+        "title": "PDHPE Core 1 - HPIA",
+        "desc":"Created by Ananya Ghangurde",
+        "file":"PDHPE Core 1 - HPIA.pdf"
       }
     ]
   }
