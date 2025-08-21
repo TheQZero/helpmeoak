@@ -1,10 +1,11 @@
 [
   {
-    "header": "Header 1",
+    "header": "Anki Decks",
     "entries": [
       {
-        "title": "Title 1",
-        "file": "KISS Mod 5 Adv Mech_Booklet.pdf"
+        "title": "Literary Devices",
+        "desc":"Created by Kristijan Magdic",
+        "file": "Year 12__Literary devices.apkg"
       }
     ]
   },

@@ -8,7 +8,7 @@
         "file": "Chem_Module_5_PhotoMaster.pdf"
       },
       {
-        "title": "KISS Module 6 (MISSING)",
+        "title": "KISS Module 6",
         "desc": "Booklet on acid/base",
         "file": "Chem_Module_6_PhotoMaster.pdf"
       },
@@ -21,6 +21,31 @@
         "title": "KISS Module 8",
         "desc": "Booklet on chemical application",
         "file": "Chem_Module_8_PhotoMaster.pdf"
+      }
+    ]
+  },
+  {
+    "header": "KISS Worksheets",
+    "entries": [
+      {
+        "title": "KISS Module 5 Worksheet",
+        "desc": "Worksheets on equlibrium",
+        "file": "Chem_Module_5_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 6 Worksheets",
+        "desc": "Worksheets on acid/base",
+        "file": "Chem_Module_6_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 7 Worksheets",
+        "desc": "Worksheets on organic chemistry",
+        "file": "Chem_Module_7_Worksheets.pdf"
+      },
+      {
+        "title": "KISS Module 8 Worksheets",
+        "desc": "Worksheets on chemical application",
+        "file": "Chem_Module_8_Worksheets.pdf"
       }
     ]
   },

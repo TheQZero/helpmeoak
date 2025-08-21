@@ -36,6 +36,8 @@ const iconMap = {
 reference = item.file;
                     }else if (ext == "pdf"){
 reference = "./../pdfs/"+item.file;
+}else if (ext == "apkg"){
+reference = "./../anki/"+item.file;
                     }else{
                         reference = "./../docs/" + item.file;
                     }

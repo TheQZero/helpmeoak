@@ -2,20 +2,6 @@
   {
     "header": "References",
     "entries": [
-        {
-        "title": "Cambridge Studies of Religion (Stage 6, Third Edition)",
-        "file": "SOR3ed_book.pdf"
-      },
-      {
-        "title": "Cambridge Studies of Religion (Study Toolkit)",
-        "desc": "Complements the above resources: a document containing an overview of different religion concepts + conceptual approach to skills (such as essay writing).",
-        "file": "SOR3ed_Toolkit.pdf"
-      },
-      {
-        "title": "Cambridge SoR 4th Ed",
-        "desc": "This is a different book to the ones above.",
-        "file": "Cambridge SoR 4th Ed.pdf"
-      },
       {
         "title": "Oxford Studies Of Religion (Relevant pages)",
         "file": "OxfordStudiesOfReligion.pdf"
@@ -25,6 +11,11 @@
   {
     "header": "Notes",
     "entries": [
+      {
+        "title":"Full Course Notes for SOR1",
+        "desc":"Created by Zander Cheng and Kristijan Madgic",
+        "file":"https://docs.google.com/document/d/1edml5_y11fmABQEgBBn5LtcwPH0h-BBUJfo8G7vBtHA/edit?usp=sharing"
+      },
       {
         "title": "Aboriginal Spirituality Notes",
         "file": "Aboriginal Spirituality.docx"
