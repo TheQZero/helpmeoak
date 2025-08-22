@@ -1,27 +1,15 @@
 [
   {
-    "header": "Textbooks",
+    "header": "Notes",
     "entries": [
       {
-        "title": "Cambridge Y12 Textbook",
-        "file": "Cambridge 12 Advanced.pdf"
+        "title": "Math Adv Full Course Notes",
+        "file": "Full Course Notes Math Advanced.pdf"
       },
       {
-        "title": "Cambridge Y12 Textbook ANSWERS",
-        "file": "Cambridge 12 Advanced Answers.pdf"
-      },
-      {
-        "title": "Cambridge Y11 Textbook",
-        "file": "Cambridge 11 Advanced.pdf"
-      },
-      {
-        "title": "Cambridge Y11 Textbook ANSWERS",
-        "file": "Cambridge 11 Advanced Answers.pdf"
-      },
-      {
-        "title": "New Senior Mathematics Advanced Year 11 & 12.pdf",
-        "desc":"Worked solutions for every chapter of the textbook have been provided below.",
-        "file": "https://drive.google.com/file/d/1u_6i-D4vY9uA-i0WYcZb-KF08nrU-5nj/preview"
+        "title": "Math Adv Cheat Sheet",
+        "desc": "Summary points from all Math Adv topics. Created by Jason Herbas",
+        "file": "ADV Math Cheat Sheet.pdf"
       }
     ]
   },
@@ -222,16 +210,6 @@
     "file": "Year 11 Advanced Mixed Revision.pdf"
   }
 ]
-  },
-  {
-    "header": "Notes",
-    "entries": [
-      {
-        "title": "Math Adv Cheat Sheet",
-        "desc": "Summary points from all Math Adv topics. Created by Jason Herbas",
-        "file": "ADV Math Cheat Sheet.pdf"
-      }
-    ]
   },
   {
     "header": "Additional Papers",
