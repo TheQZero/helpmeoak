@@ -10,6 +10,16 @@
     ]
   },
   {
+    "header": "Notes",
+    "entries": [
+      {
+        "title": "Full Summary Notes",
+        "desc": "Full summary notes for Chemistry, created by a state-ranker from 2019.",
+        "file": "Chemistry NEW SYLLABUS Preliminary Notes.pdf"
+      }
+    ]
+  },
+  {
     "header": "Learn from Mistakes",
     "entries": [
       {
@@ -158,6 +168,32 @@
       {
         "title": "Smarter Ed: Mod 8 IQ3",
         "file": "M8IQ3.pdf"
+      }
+    ]
+  },
+  {
+    "header": "Bored of Studies Chemistry Paper",
+    "headerDesc": "WARNING: These papers are far beyond the level of the trials or HSC. They are useful in gaining new techniques and perspectives, but NOT as a benchmark of ability.",
+    "entries": [
+      {
+        "title": "2022 BoS Trials Chemistry",
+        "file": "2022 BoS Trials Chemistry.pdf"
+      },
+      {
+        "title": "2022 Chemistry BoS Trials Marking Guidelines",
+        "file": "2022 Chemistry BoS Trials Marking Guidelines.pdf"
+      },
+      {
+        "title": "2021 BoS Trials Chemistry (WARNING: No Answers)",
+        "file": "2021 BoS Trials Chemistry.pdf"
+      },
+      {
+        "title": "2020 BoS Trials Chemistry",
+        "file": "2020 BoS Trials Chemistry.pdf"
+      },
+      {
+        "title": "2020 Chemistry BoS Trials Marking Guidelines, Comments & Exemplar Responses",
+        "file": "2020 Chemistry BoS Trials Marking Guidelines, Comments & Exemplar Responses.pdf"
       }
     ]
   },
