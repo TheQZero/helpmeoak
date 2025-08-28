@@ -1,19 +1,11 @@
 [
   {
-    "header": "Header 1",
+    "header": "Answers",
     "entries": [
       {
-        "title": "Title 1",
-        "file": "KISS Mod 5 Adv Mech_Booklet.pdf"
-      }
-    ]
-  },
-  {
-    "header": "Header 2",
-    "entries": [
-      {
-        "title": "Title 2",
-        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+        "title": "Enterprise Computing Yr12 Textbook Answers",
+        "desc":"A working document for answers to the new textbook, as none a provided on the original. ",
+        "file": "https://docs.google.com/document/d/1K6HmksKqUZairCDHFVJOEqVmPZkYuM0Uw6uFiBj3kzE/edit?usp=sharing"
       }
     ]
   }
