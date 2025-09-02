@@ -24,12 +24,13 @@
       }
     ]
   },
-  {
-    "header": "Header 2",
+      {
+    "header": "Hard Questions",
     "entries": [
       {
-        "title": "Title 2",
-        "file": "KISS Mod 5 Adv Mech_Worksheets.pdf"
+        "title": "Hard questions canva document",
+        "desc": "Hard questions for economics from different sources on a canva document. Created by Jonathan Soarces Caplice.",
+        "file": "https://www.canva.com/design/DAGnVflPAQo/J9QU8tsE-AngQQVFB0hP5A/edit?utm_content=DAGnVflPAQo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
       }
     ]
   }
