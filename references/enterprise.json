@@ -1,9 +1,25 @@
 [
   {
+    "header": "Notes",
+    "entries": [
+      {
+        "title": "Enterprise Computing Notes",
+        "desc":"Rough but complete notes for the course.",
+        "file": "https://docs.google.com/document/d/1KECRC8K48mZI9RJJrO91qZfG269ADpkQ8Q3KVL9NTiw/edit?usp=sharing"
+      },
+      {
+
+        "title": "(ONGING) Enterprise Computing Textbook Notes",
+        "desc":"Concise notes based on the textbook. Work in progress.",
+        "file": "https://docs.google.com/document/d/1NXs7H7dJBIfGxJO41bfasSbOfqSKyQdWSjeLhrmiPFU/edit?usp=sharing"
+      }
+    ]
+  },
+  {
     "header": "Answers",
     "entries": [
       {
-        "title": "Enterprise Computing Yr12 Textbook Answers",
+        "title": "(ONGOING) Enterprise Computing Yr12 Textbook Answers",
         "desc":"A working document for answers to the new textbook, as none a provided on the original. ",
         "file": "https://docs.google.com/document/d/1K6HmksKqUZairCDHFVJOEqVmPZkYuM0Uw6uFiBj3kzE/edit?usp=sharing"
       }
